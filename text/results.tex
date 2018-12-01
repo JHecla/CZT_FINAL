@@ -2,7 +2,7 @@
 
 The cathode to anode ratio values found in this investigation were used to attempt to determine depth of interaction and to perform energy correction. DOI values derived from CAR were clustered between 0 and 1, and scatter plots showed features corresponding to peaks (which have been observed in other investigations, cite{Knoll,He}). A small fraction (less than 5 percent) of all C-A scatter points were outside the valid value range, indicating either spurious coincidence or poor charge collection. 
 
-Attempts to correct spectra using CAR and 
+Attempts to correct spectra using CAR and Hecht's relation was entirely unsuccessful, as evidenced by the spectrum plotted below. This may be due to issues in the mu-tau values used, issues with the coincidence window or a problem with proper charge collection. 
 
 [SECTION ON TIMING DOI DETERMINATION]
 
@@ -64,7 +64,7 @@ Attempts to correct spectra using CAR and
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=0.5]{anodes_px.png}
+\includegraphics[scale=0.5]{anode_px.png}
 \caption{Plotting coincident events by anode number demonstrates that pixels 7-8 have significantly different gain and resolution properties. Pixel 1 shows outstanding resolution in comparison to 2-6.}
 \label{400}
 \end{center}
@@ -78,9 +78,14 @@ Attempts to correct spectra using CAR and
 \end{center}
 \end{figure}
 
-
-
-
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{corr_anode_pulses.png}
+\caption{This spectrum shows an attempt at eventwise correction using Hecht's relation. As can be seen, no peaks are evident and resolution can therefore not be defined.}
+\label{400}
+\end{center}
 \end{figure}
+
+
 
 
